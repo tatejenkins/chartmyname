@@ -14,7 +14,7 @@ services:
       - key: baseURL # Imported from Heroku app
         value: https://chart-my-name.herokuapp.com/api/v1/names
       - key: NAMES_DB_URI # Imported from Heroku app
-        value: mongodb+srv://tate:YAiCxNEZgaWGUkJC@cluster0.yii54.mongodb.net/names?retryWrites&#x3D;true&amp;w&#x3D;majority
+        value: mongodb+srv://tate:YAiCxNEZgaWGUkJC@cluster0.yii54.mongodb.net/names?retryWrites=true&w=majority
       - key: NAMES_NS # Imported from Heroku app
         value: names
 
